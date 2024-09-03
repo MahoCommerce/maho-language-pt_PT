@@ -1,6 +1,6 @@
 {
-    "name": "mahocommerce/maho-language-xx_XX",
-    "description": "xx_XX language pack for Maho ecommerce platform",
+    "name": "mahocommerce/maho-language-pt_pt",
+    "description": "Portuguese (pt_PT) language pack for Maho ecommerce platform",
     "type": "maho-module",
     "license": [
         "OSL-3.0",
