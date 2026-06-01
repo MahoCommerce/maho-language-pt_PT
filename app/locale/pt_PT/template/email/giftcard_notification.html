@@ -23,18 +23,18 @@
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
     <tr>
         <td class="action-content">
-            <h1>You've Received a Gift Card!</h1>
+            <h1>Você recebeu um cartão de presente!</h1>
             <p>Dear {{var recipient_name}},</p>
-            <p><strong>{{var sender_name}}</strong> has sent you a gift card from {{var store.getFrontendName()}}!</p>
+            <p><strong>{{var sender_name}}</strong> enviou-lhe um cartão de presente do {{var store.getFrontendName()}}!</p>
 
             <div class="giftcard-box">
-                <p><strong>Your Gift Card Code:</strong></p>
+                <p><strong>Seu código de cartão presente:</strong></p>
                 <div class="giftcard-code">{{var code}}</div>
 
-                <p style="margin-top: 20px;"><strong>Value:</strong> <span class="giftcard-amount">{{var formatted_amount}}</span></p>
+                <p style="margin-top: 20px;"><strong>Valor:</strong> <span class="giftcard-amount">{{var formatted_amount}}</span></p>
 
                 {{depend message}}
-                <p style="margin-top: 20px;"><strong>Message from {{var sender_name}}:</strong></p>
+                <p style="margin-top: 20px;"><strong>Mensagem de {{var sender_name}}:</strong></p>
                 <div class="giftcard-message">{{var message}}</div>
                 {{/depend}}
 
@@ -43,11 +43,11 @@
                 {{/depend}}
             </div>
 
-            <p>To redeem your gift card, simply enter the code above at checkout.</p>
+            <p>Para resgatar seu cartão de presente, basta inserir o código acima no checkout.</p>
 
-            <p>If you have any questions, please contact us at <a href="mailto:{{var store_email}}">{{var store_email}}</a>{{depend store_phone}} or call <a href="tel:{{var store_phone}}">{{var store_phone}}</a>{{/depend}}.</p>
+            <p>Se tiver alguma dúvida, por favor contacte-nos pelo <a href="mailto:{{var store_email}}">{{var store_email}}</a>{{depend store_phone}} ou ligue para <a href="tel:{{var store_phone}}">{{var store_phone}}</a>{{/depend}}.</p>
 
-            <p>Happy Shopping!</p>
+            <p>Feliz Compras!</p>
         </td>
     </tr>
 </table>
